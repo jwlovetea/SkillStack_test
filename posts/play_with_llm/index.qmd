@@ -4,6 +4,7 @@ author: "jwlovetea"
 date: "2024-03-03"
 categories: [news, code, analysis]
 image: "image.png"
+jupyter: python3
 ---
 
 This is a post with executable code.

@@ -1,12 +1,16 @@
 {
-  "hash": "dac72194188c16ec58dd2f3f534d220f",
+  "hash": "c184242ca723bda0b9c0db57fd1e1ed6",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Play with LLMs\"\nauthor: \"jwlovetea\"\ndate: \"2024-03-03\"\ncategories: [news, code, analysis]\nimage: \"image.png\"\n---\n\nThis is a post with executable code.\n\nadd `png` file.\n\n::: {#29a23c39 .cell execution_count=1}\n``` {.python .cell-code}\n1+2\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n3\n```\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: Play with LLMs\nauthor: jwlovetea\ndate: '2024-03-03'\ncategories:\n  - news\n  - code\n  - analysis\nimage: image.png\n---\n\nThis is a post with executable code.\n\nadd `png` file.\n\n::: {#05ffb29c .cell execution_count=1}\n``` {.python .cell-code}\nimport polars as pl\n\ndata = pl.read_csv(\"data.csv\")\ndata.describe()\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```{=html}\n<div><style>\n.dataframe > thead > tr,\n.dataframe > tbody > tr {\n  text-align: right;\n  white-space: pre-wrap;\n}\n</style>\n<small>shape: (9, 3)</small><table border=\"1\" class=\"dataframe\"><thead><tr><th>describe</th><th>name</th><th>age</th></tr><tr><td>str</td><td>str</td><td>f64</td></tr></thead><tbody><tr><td>&quot;count&quot;</td><td>&quot;3&quot;</td><td>3.0</td></tr><tr><td>&quot;null_count&quot;</td><td>&quot;0&quot;</td><td>0.0</td></tr><tr><td>&quot;mean&quot;</td><td>null</td><td>21.0</td></tr><tr><td>&quot;std&quot;</td><td>null</td><td>1.0</td></tr><tr><td>&quot;min&quot;</td><td>&quot;a&quot;</td><td>20.0</td></tr><tr><td>&quot;25%&quot;</td><td>null</td><td>20.0</td></tr><tr><td>&quot;50%&quot;</td><td>null</td><td>21.0</td></tr><tr><td>&quot;75%&quot;</td><td>null</td><td>22.0</td></tr><tr><td>&quot;max&quot;</td><td>&quot;c&quot;</td><td>22.0</td></tr></tbody></table></div>\n```\n:::\n:::\n\n\n",
     "supporting": [
       "index_files"
     ],
     "filters": [],
-    "includes": {}
+    "includes": {
+      "include-in-header": [
+        "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js\" integrity=\"sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\" integrity=\"sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==\" crossorigin=\"anonymous\" data-relocate-top=\"true\"></script>\n<script type=\"application/javascript\">define('jquery', [],function() {return window.jQuery;})</script>\n"
+      ]
+    }
   }
 }
