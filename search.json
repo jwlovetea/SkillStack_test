@@ -32,6 +32,6 @@
     "href": "posts/play_with_llm/index.html",
     "title": "Play with LLMs",
     "section": "",
-    "text": "This is a post with executable code.\nadd png file."
+    "text": "This is a post with executable code.\nadd png file.\n\n1+2\n\n3"
   }
 ]
