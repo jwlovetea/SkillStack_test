@@ -1,0 +1,11 @@
+---
+title: "Play with LLMs"
+author: "jwlovetea"
+date: "2024-03-03"
+categories: [news, code, analysis]
+image: "image.png"
+---
+
+This is a post with executable code.
+
+add `png` file.
