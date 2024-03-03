@@ -1,0 +1,12 @@
+{
+  "hash": "dac72194188c16ec58dd2f3f534d220f",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Play with LLMs\"\nauthor: \"jwlovetea\"\ndate: \"2024-03-03\"\ncategories: [news, code, analysis]\nimage: \"image.png\"\n---\n\nThis is a post with executable code.\n\nadd `png` file.\n\n::: {#29a23c39 .cell execution_count=1}\n``` {.python .cell-code}\n1+2\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n3\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

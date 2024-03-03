@@ -9,3 +9,10 @@ image: "image.png"
 This is a post with executable code.
 
 add `png` file.
+
+```{python}
+import polars as pl
+
+data = pl.read_csv("data.csv")
+data.describe()
+```
