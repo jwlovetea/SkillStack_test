@@ -32,6 +32,6 @@
     "href": "posts/play_with_llm/index.html",
     "title": "Play with LLMs",
     "section": "",
-    "text": "This is a post with executable code.\nadd png file.\n\n1+2\n\n3"
+    "text": "This is a post with executable code.\nadd png file.\n\nimport polars as pl\n\ndata = pl.read_csv(\"data.csv\")\ndata.describe()\n\n\n\nshape: (9, 3)\n\n\n\ndescribe\nname\nage\n\n\nstr\nstr\nf64\n\n\n\n\n\"count\"\n\"3\"\n3.0\n\n\n\"null_count\"\n\"0\"\n0.0\n\n\n\"mean\"\nnull\n21.0\n\n\n\"std\"\nnull\n1.0\n\n\n\"min\"\n\"a\"\n20.0\n\n\n\"25%\"\nnull\n20.0\n\n\n\"50%\"\nnull\n21.0\n\n\n\"75%\"\nnull\n22.0\n\n\n\"max\"\n\"c\"\n22.0"
   }
 ]
